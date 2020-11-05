@@ -39,9 +39,10 @@ public class CybertekStepDefs {
         @Then("user needs to fill the info")
         public void user_needs_to_fill_the_info() {
 
-                cybertekStudent.FirstName.sendKeys("FirstName");
+                cybertekStudent.firstName.sendKeys(Config.getProperty("FirstName"));
                 cybertekStudent.Lastname.sendKeys("Hilfiger");
                 cybertekStudent.email.sendKeys("tom.hilfiger@gmail.com");
+
 
         }
 
