@@ -11,9 +11,6 @@ public class API_Utils {
     static ResponseBody responseBody = null;
     static Response response =null;
 
-
-
-
     //CRUD Operation. One  method for each operation.
     //One method should handle any APis are hitting.
     public static void hitGET(String resource) {

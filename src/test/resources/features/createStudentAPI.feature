@@ -30,6 +30,6 @@ Feature: User should be able to update a student on API and validate with UI-DB
     When user is on the main page
     And user clicks student
     And user clicks to all students
-    And user search the Student with 2334
+    And user search the Student with 17262
     And user click on the student profile
-    When user compare "ID" with UI and API
+    When user compare 132 with UI and API
